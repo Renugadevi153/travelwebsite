@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WanderWorld Travel Agency</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- 🌍 Navbar -->
+  <nav class="navbar">
+    <div class="logo">WanderWorld</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#booking">Book</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">&#9776;</div>
+  </nav>
+
+  <!-- 🏠 Home Section -->
+  <header class="hero" id="home">
+    <h1>Explore the World with WanderWorld</h1>
+    <p>Your dream journey begins here 🌎</p>
+  </header>
+
+  <!-- 🏙 Destinations -->
+  <section class="destinations" id="destinations">
+    <h2>Top Destinations</h2>
+    <div class="grid">
+      <div class="card"><img src="images/bali.jpg" alt="Bali"><h3>Bali</h3></div>
+      <div class="card"><img src="images/vietnam.jpg" alt="Vietnam"><h3>Vietnam</h3></div>
+      <div class="card"><img src="images/paris.jpg" alt="paris"><h3>Paris</h3></div>
+      <div class="card"><img src="images/india.jpg" alt="india"><h3>India</h3></div>
+      <div class="card"><img src="images/italy.jpg" alt="italy"><h3>Italy</h3></div>
+      <div class="card"><img src="images/singapore.jpg" alt="singapore"><h3>Singapore</h3></div>
+      <div class="card"><img src="images/Thailand.jpg" alt="thailand"><h3>Thailand</h3></div>
+      <div class="card"><img src="images/Egypt.jpg" alt="egypt"><h3>Egypt</h3></div>
+    </div>
+  </section>
+
+  <!-- ℹ️ About Us -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>WanderWorld is a leading travel agency offering tailor-made travel experiences to exotic locations around the world. We believe in making your journeys unforgettable.</p>
+  </section>
+
+  <!-- 📆 Booking Form -->
+  <section class="booking" id="booking">
+    <h2>Book Your Trip</h2>
+    <form id="bookingForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <select required>
+        <option value="">Select Destination</option>
+        <option>Bali</option>
+        <option>Vietnam</option>
+        <option>Paris</option>
+        <option>India</option>
+        <option>Italy</option>
+        <option>Singapore</option>
+        <option>Thailand</option>
+        <option>Egypt</option>
+        <option>Japan</option>
+        <option>Maldives</option>
+        <option>Cape Town</option>
+        <option>Canada</option>
+        <option>Australia</option>
+        <option>Cambodia</option>
+        <option>Nepal</option>
+        <option>Switzerland</option>
+        <option>Philippines</option>
+        <option>Srilanka</option>
+        <option>Turkey</option>
+        <option>Greece</option>
+        <option>London</option>
+        <option>Spain</option>
+        <option>Mexico</option>
+       </select>
+      <input type="date" required>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <!-- 📞 Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- 💬 Reviews -->
+  <section class="reviews">
+    <h2>What Our Travelers Say</h2>
+    <div class="review-box"><p>"An unforgettable trip to Bali!"</p><span>- Sarah</span></div>
+    <div class="review-box"><p>"Excellent service and beautiful experiences!"</p><span>- Arjun</span></div>
+  </section>
+
+  <!-- 🔻 Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#booking">Book</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <p>© 2025 WanderWorld. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
